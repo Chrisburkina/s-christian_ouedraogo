@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>S_Christian_OUEDRAOGO_activities</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Lien vers le CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div id="menu-toggle" class="menu-toggle">☰</div>
+    <ul id="nav-links" class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="contacts.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<div id="menu-overlay" class="menu-overlay"></div>
+
+<!-- Header -->
+<header class="header">
+    <div class="lang-switch">
+        <button onclick="setLang('en')">EN</button>
+        <button onclick="setLang('fr')">FR</button>
+    </div>
+</header>
+
+<!-- Main Content -->
+<main class="content activities">
+
+<section class="tabs">
+
+    <!-- Rubriques -->
+    <div class="tab-buttons">
+        <button class="tab-btn active" onclick="openTab(event,'research')">Research & Projects</button>
+        <button class="tab-btn" onclick="openTab(event,'teaching')">Knowledge Sharing</button>
+        <button class="tab-btn" onclick="openTab(event,'extra')">Extra-Academic</button>
+    </div>
+
+    <!-- Research & Projects -->
+   <div id="research" class="tab-content active">
+
+<h2>Research & Projects</h2>
+
+<div class="research-grid">
+
+<!-- project 1 -->
+<div class="extra-card">
+
+<h3>Master's thesis research: Green fiscality and innovation in an endogenous growth model with agency problems</h3>
+
+<img src="images/fv.avif" alt="research image" onclick="openLightbox(this.src)">
+
+<p>
+This theoretical project focuses on the effects of environmental regulation such as environmental taxes on innovation.
+<span class="more-text">
+The objective is to understand how environmental regulation may influence innovation through contractual relations between managers and shareholders. 
+The project also proposes policy insights related to green growth strategies.
+</span>
+</p>
+
+<span class="see-more" onclick="toggleText(this)">See more</span>
+
+<ul>
+<li><strong>Role:</strong> Author</li>
+<li><strong>Institution:</strong> UBE</li>
+<li><strong>Period:</strong> 2025 – 2026</li>
+</ul>
+
+</div>
+
+
+<!-- project 2 -->
+<div class="extra-card">
+
+<h3>Professional Bachelor's degree research: Sensitivity of growth to budgetary policies – the case of Burkina Faso</h3>
+
+<img src="images/tr.jpg" alt="research image" onclick="openLightbox(this.src)">
+
+<p>
+This project estimates the effects of taxes and public spending on GDP per capita in Burkina Faso.
+<span class="more-text">
+Using time series data from the World Bank and an ARDL econometric model, the research evaluates the long-run and short-run relationships between fiscal policy and economic growth.
+</span>
+</p>
+
+<span class="see-more" onclick="toggleText(this)">See more</span>
+
+<ul>
+<li><strong>Role:</strong> Researcher</li>
+<li><strong>Institution:</strong> UJKZ</li>
+<li><strong>Period:</strong> 2023 – 2024</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+    <!-- Knowledge Sharing -->
+    <div id="teaching" class="tab-content">
+        <h2>Knowledge Sharing</h2>
+        <ul class="knowledge-list">
+            <li><a href="" target="_blank">library (empty ) </a></li>
+            <li><a href="documents/econometrics_notes.pdf" target="_blank">Master thesis(empty) </a></li>
+            <li><a href="documents/Rapport de stage.pdf" target="_blank">Bachelor degree internship report</a></li>
+        </ul>
+    </div>
+
+    <!-- Extra-Academic -->
+    <div id="extra" class="tab-content">
+        <h2>Extra-academic activities</h2>
+        <div class="extra-grid">
+
+            <div class="extra-card">
+
+    <img src="images/oigbdf.jpeg" class="main-image" id="img-extra1" onclick="openLightbox(this.src)">
+
+    <div class="thumbnails">
+        <img src="images/oigbdf.jpeg" onclick="changeImage('img-extra1', this.src)">
+        <img src="images/fgy.jpeg" onclick="changeImage('img-extra1', this.src)">
+        <img src="images/amn1.jpeg" onclick="changeImage('img-extra1', this.src)">
+    </div>
+
+    <h3>Citizen activism</h3>
+
+    <p>
+        I participated in community volunteering programs with Amnesty International Burkina Faso, focused on sensitizing
+        <span class="more-text">
+            people on human rights. The goal was to help people and promote human rights among young people.
+        </span>
+    </p>
+
+    <span class="see-more" onclick="toggleText(this)">See more</span>
+
+</div>
+
+            <div class="extra-card">
+                <img src="images/y1.jpeg" class="main-image" id="img-extra2" onclick="openLightbox(this.src)">
+
+    <div class="thumbnails">
+        <img src="images/y1.jpeg" onclick="changeImage('img-extra2', this.src)">
+        <img src="images/Ass2.jpeg" onclick="changeImage('img-extra2', this.src)">
+        <img src="images/ass3.jpeg" onclick="changeImage('img-extra2', this.src)">
+    </div>
+                <h3>Youth association Leader</h3>
+                <p>Citizen engagement is the best way to train yourself, while being useful to your community. 
+                    The associative environment is its most concrete manifestation. 
+                    <span class="more-text">I have always been interested in taking actions whose impact goes beyond one's own 
+                        person, and I demonstrated this by getting involved in several associations, before co-founding one with 
+                        other young people. Within the AEC, we have worked for entrepreneurship, green finance and good 
+                        communication, through competitio
+                    </span>
+                </p>
+                <span class="see-more" onclick="toggleText(this)">See more</span>
+            </div>
+
+            <div class="extra-card">
+                <img src="images/pub2.jpeg" class="main-image" id="img-extra3" onclick="openLightbox(this.src)">
+
+    <div class="thumbnails">
+        <img src="images/pub2.jpeg" onclick="changeImage('img-extra3', this.src)">
+        <img src="images/dfgh.jpeg" onclick="changeImage('img-extra3', this.src)">
+        <img src="images/pub1.jpeg" onclick="changeImage('img-extra3', this.src)">
+    </div>
+                <h3>Public speech</h3>
+                <p>Passionate about public speaking, I have practiced the discipline since high school.
+                    <span class="more-text">From passionate debater to trainer in the art of debate and pitching, 
+                        through organizing a debate competition and offering services as a master of ceremonies, the art of 
+                        speaking has been my second main activity during my undergraduate studies. I am still happy to practice it!.</span>
+                </p>
+                <span class="see-more" onclick="toggleText(this)">See more</span>
+            </div>
+
+        
+
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>© 2026 – S Christian OUEDRAOGO | Economist-Statistician</p>
+</footer>
+
+<!-- Lightbox -->
+<div id="lightbox-overlay" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Lightbox Image">
+</div>
+
+<!-- JS -->
+<script src="js/js.js"></script>
+</body>
+</html>
