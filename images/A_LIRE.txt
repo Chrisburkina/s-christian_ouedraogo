@@ -1,0 +1,19 @@
+Placez ici vos photos, avec exactement ces noms de fichiers :
+
+Copiées depuis l'ancien site (dossier images/ du dépôt s-christian_ouedraogo) :
+  ojtrf.jpeg   photo de profil (format portrait)
+  oigbdf.jpeg  photo secondaire (section À propos)
+  det.webp     billet sur la dette publique
+  yhjkk.jpeg   billet sur la soutenance du 16/12/2025
+  fv.avif      mémoire Master 1 (fiscalité verte)
+  tr.jpg       mémoire de Licence
+  amn1.jpeg, y1.jpeg      engagement citoyen (Amnesty)
+  Ass2.jpeg, ass3.jpeg    leadership associatif
+  pub1.jpeg, pub2.jpeg    prise de parole
+
+Nouvelles images à ajouter :
+  memoire-m2.jpg   visuel du mémoire Master 2
+  procredix.jpg    capture de Procredix Burkina
+  maam-laafi.jpg   visuel de Maam Laafi
+
+Tant qu'un fichier manque, le site affiche un cadre avec son nom.

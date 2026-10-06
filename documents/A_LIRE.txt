@@ -1,0 +1,4 @@
+Placez ici vos documents, avec exactement ces noms :
+  CV.pdf                 votre CV
+  MEMOIRE.pdf            mémoire de Master 1 (copié depuis l'ancien site)
+  Rapport-de-stage.pdf   rapport de stage de Licence (ancien nom : "Rapport de stage.pdf")
